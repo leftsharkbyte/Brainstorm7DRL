@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background-color: #000;
+    border: 2px solid #0f0;
+    padding: 30px;
+    border-radius: 0;
+}
+
+button, select {
+    background-color: #222;
+    color: #0f0;
+    border: 1px solid #0f0;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#ideaOutput {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    white-space: pre-wrap;
+}
+
+label {
+    color: #0f0;
+    margin-right: 10px;
+}
+
+select:focus, button:focus {
+    outline-color: #0f0;
+}
+
+select option {
+    background-color: #000;
+    color: #0f0;
+}
